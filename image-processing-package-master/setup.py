@@ -13,5 +13,8 @@ setup(
     description='Image Processing Package using Skimage',
     long_description=page_description,
     long_description_content_type='text/markdow',
-    
+    url='https://github.com/julioecl/python-developer-DIO/tree/main/image-processing-package-master',
+    packages=find_packages(),
+    install_requires=requirements,
+    python_requires='>=3.5',
 )
